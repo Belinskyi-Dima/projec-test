@@ -3,24 +3,16 @@
 }
 
 .discount__title--container {
-//   &::after {
-	
-//   }
   @media screen and (max-width: 1023px) {
-	width: 410px;
-	// width: 100%;
-	// margin: 0 auto;
- }
- width: 480px;
+    width: 410px;
+  }
+  width: 480px;
 }
 
 .discount__wrapper {
-
   @media screen and (max-width: 1023px) {
     flex-direction: column;
     align-items: center;
-	//  margin-bottom: ;
-
   }
   display: flex;
   justify-content: space-between;
@@ -30,8 +22,8 @@
 .discount__img--container {
   display: flex;
   @media screen and (max-width: 1023px) {
-	width: 390px;
- }
+    width: 390px;
+  }
   width: 460px;
   @media screen and (max-width: 1023px) {
     margin-bottom: 40px;
@@ -40,44 +32,37 @@
 .discount__img__wrapper {
   display: flex;
   flex-direction: column;
- 
+
   @media screen and (min-width: 1024px) {
-	justify-content: space-between;
- }
+    justify-content: space-between;
+  }
 }
 .discount__img__product1 {
-  
   @media screen and (max-width: 1023px) {
-	margin-bottom: 40px;
-	margin-right: 10px;
-	width: 100%;
- }
- margin-right: 20px;
+    margin-bottom: 40px;
+    margin-right: 10px;
+    width: 100%;
+  }
+  margin-right: 20px;
 }
 .discount__img__product2 {
-	@media screen and (max-width: 1023px) {
-		// margin-bottom: 10px;
-		width: 100%;
-		height: 40%;
-		// margin-right: 10px;
-	 }
+  @media screen and (max-width: 1023px) {
+    width: 100%;
+    height: 40%;
+  }
 }
 .discount__img {
-	@media screen and (max-width: 1023px) {
-		margin-bottom: 20px;
-
-	 }
+  @media screen and (max-width: 1023px) {
+    margin-bottom: 20px;
+  }
 }
 
 .discount__offer {
-	@media screen and (max-width: 1023px) {
-		// margin-bottom: 10px;
-		// width: 100%;
-		max-width: 360px;
-		margin: 0 auto;
-		// margin-right: 10px;
-		padding: 0px 20px;
-	 }
+  @media screen and (max-width: 1023px) {
+    max-width: 360px;
+    margin: 0 auto;
+    padding: 0px 20px;
+  }
   width: 460px;
   padding: 0px 60px 0px;
 }
@@ -98,10 +83,10 @@
   color: #1d1f2e;
 }
 .discount__title--magazin {
-	font-size: 36px;
-	line-height: 50px;
-	color: $primary-text-color;
-	font-weight: 400;
+  font-size: 36px;
+  line-height: 50px;
+  color: $primary-text-color;
+  font-weight: 400;
 }
 .discount__subtitle {
   color: #1d1f2eb2;
@@ -121,7 +106,6 @@
   background-color: $primary-text-color;
   text-align: center;
   border: none;
-//   align-items: center;
   transition: 250ms linear;
   &:hover {
     background-color: lightslategray;

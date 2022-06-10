@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
 body {
-  font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
   max-width: 1380px;
   margin: 0 auto;
   font-weight: 400;
@@ -10,7 +10,6 @@ body {
 .container {
   margin: 0 auto;
   position: relative;
-  border: 1px solid red;
 }
 
 @media screen and (max-width: 768px) {
@@ -122,7 +121,7 @@ a {
 }
 
 .site-nav__item:hover {
-  border-bottom: 1px solid #1D1F2E;
+  border-bottom: 1px solid #1d1f2e;
 }
 
 .site-nav__item:not(:last-child) {
@@ -163,8 +162,8 @@ a {
 
 .site-nav__cart--wrapper {
   width: 20px;
-  background: #1D1F2E;
-  color: #FFFFFF;
+  background: #1d1f2e;
+  color: #ffffff;
   text-align: center;
   border-radius: 50%;
   padding-top: 3px;
@@ -345,7 +344,7 @@ a {
   background: url("../src/img/hero-bg.png") 0 0/cover no-repeat;
   text-align: center;
   padding: 160px 0;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 125px;
 }
 
@@ -383,8 +382,8 @@ a {
 }
 
 .hero__btn {
-  background-color: #FFFFFF;
-  color: #1D1F2E;
+  background-color: #ffffff;
+  color: #1d1f2e;
   letter-spacing: 2px;
   padding: 0 24px;
   -webkit-transition: 250ms linear;
@@ -436,7 +435,7 @@ a {
   font-size: 26px;
   font-weight: 400;
   line-height: 40px;
-  color: #1D1F2E;
+  color: #1d1f2e;
   margin-bottom: 16px;
 }
 
@@ -449,14 +448,14 @@ a {
 .features__text {
   font-size: 16px;
   line-height: 28px;
-  color: #1D1F2EB2;
+  color: #1d1f2eb2;
   margin-bottom: 20px;
 }
 
 .features__btn--wrapper {
   display: inline-block;
   padding: 5px 3px;
-  border-bottom: 2px solid #A25F4B33;
+  border-bottom: 2px solid #a25f4b33;
   -webkit-transition: 250ms linear;
   transition: 250ms linear;
 }
@@ -469,7 +468,7 @@ a {
 }
 
 .features__btn {
-  color: #A25F4B;
+  color: #a25f4b;
 }
 
 .featured {
@@ -491,7 +490,7 @@ a {
 
 .title {
   font-size: 12px;
-  color: #1D1F2E;
+  color: #1d1f2e;
   text-transform: uppercase;
   line-height: 18px;
   text-align: center;
@@ -501,9 +500,9 @@ a {
 }
 
 .title::after {
-  content: '';
+  content: "";
   position: absolute;
-  background-color: #ECECED;
+  background-color: #ececed;
   width: 30px;
   height: 2px;
   top: 8px;
@@ -511,9 +510,9 @@ a {
 }
 
 .title::before {
-  content: '';
+  content: "";
   position: absolute;
-  background-color: #ECECED;
+  background-color: #ececed;
   width: 30px;
   height: 2px;
   top: 8px;
@@ -561,7 +560,7 @@ a {
 }
 
 .card-name {
-  color: #1D1F2E;
+  color: #1d1f2e;
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
@@ -574,7 +573,7 @@ a {
 }
 
 .new-price {
-  color: #A25F4B;
+  color: #a25f4b;
   font-size: 19px;
 }
 
@@ -808,7 +807,7 @@ a {
 .discount__title--magazin {
   font-size: 36px;
   line-height: 50px;
-  color: #1D1F2E;
+  color: #1d1f2e;
   font-weight: 400;
 }
 
@@ -828,7 +827,7 @@ a {
   text-transform: uppercase;
   line-height: 20px;
   letter-spacing: 2px;
-  background-color: #1D1F2E;
+  background-color: #1d1f2e;
   text-align: center;
   border: none;
   -webkit-transition: 250ms linear;
@@ -893,22 +892,22 @@ a {
   margin-bottom: 10px;
   font-size: 20px;
   line-height: 32px;
-  color: #1D1F2E;
+  color: #1d1f2e;
 }
 
 .post__item--subtitle {
   margin-bottom: 15px;
-  color: #1D1F2EB2;
+  color: #1d1f2eb2;
 }
 
 .post__item--date {
-  color: #1D1F2E;
+  color: #1d1f2e;
   font-size: 12px;
 }
 
 .authorization {
   padding: 80px 0px;
-  background-color: #1D1F2E;
+  background-color: #1d1f2e;
   text-align: center;
   margin-bottom: 100px;
 }
@@ -933,7 +932,7 @@ a {
   text-align: center;
   height: 54px;
   width: 350px;
-  background: #1D1F2E;
+  background: #1d1f2e;
   border: 1px solid #2f303e;
   color: #fff;
   margin-right: 10px;
@@ -1031,7 +1030,7 @@ a {
 .footer__title {
   font-size: 12px;
   line-height: 18px;
-  color: #1D1F2E;
+  color: #1d1f2e;
   letter-spacing: 2px;
   text-transform: uppercase;
   margin-bottom: 22px;
@@ -1040,7 +1039,7 @@ a {
 .link {
   font-size: 14px;
   line-height: 22px;
-  color: #1D1F2EB2;
+  color: #1d1f2eb2;
 }
 
 @media screen and (max-width: 1023px) {
@@ -1058,7 +1057,7 @@ a {
   line-height: 36px;
   display: inline-block;
   margin-bottom: 40px;
-  color: #1D1F2E;
+  color: #1d1f2e;
 }
 
 @media screen and (max-width: 860px) {

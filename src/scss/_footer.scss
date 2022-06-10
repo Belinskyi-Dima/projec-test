@@ -8,16 +8,14 @@
   display: flex;
   justify-content: space-between;
   @media screen and (max-width: 860px) {
-	display: block;
- 
-}
+    display: block;
+  }
 }
 .footer__logo--wrapper {
   flex-basis: 300px;
   @media screen and (max-width: 860px) {
-	margin-bottom: 20px;
- 
-}
+    margin-bottom: 20px;
+  }
 }
 .logo {
   font-size: 24px;
@@ -30,8 +28,8 @@
 .footer__logo--text {
   margin-bottom: 60px;
   @media screen and (max-width: 860px) {
-	margin-bottom: 10px;
-}
+    margin-bottom: 10px;
+  }
 }
 .footer__company {
   font-size: 14px;
@@ -39,9 +37,9 @@
   color: #1d1f2e4d;
 }
 .footer__menu--list {
-	@media screen and (max-width: 1023px) {
-		display: none;
-	 }
+  @media screen and (max-width: 1023px) {
+    display: none;
+  }
 }
 .footer__title {
   font-size: 12px;
@@ -57,9 +55,9 @@
   color: $Secondary-text-color;
 }
 .footer__network--list {
-	@media screen and (max-width: 1023px) {
-		display: none;
-	 }
+  @media screen and (max-width: 1023px) {
+    display: none;
+  }
 }
 .footer__contacts--title {
   margin-bottom: 16px;
@@ -71,6 +69,6 @@
   margin-bottom: 40px;
   color: $primary-text-color;
   @media screen and (max-width: 860px) {
-	margin-bottom: 10px;
-}
+    margin-bottom: 10px;
+  }
 }

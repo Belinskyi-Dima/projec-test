@@ -25,11 +25,10 @@
   width: 350px;
   background: $primary-text-color;
   border: 1px solid #2f303e;
-  // text-transform: uppercase;
   color: #fff;
   margin-right: 10px;
-  @media screen and (max-width: 492px){
-	margin-bottom: 10px;
+  @media screen and (max-width: 492px) {
+    margin-bottom: 10px;
   }
 }
 .authorization__form--btn {
