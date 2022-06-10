@@ -59,20 +59,13 @@
 	padding-top: 6px;
   }
 }
-// mobile-nav
 
-// .mobile {
-// 	@media screen and (max-width: 767px) {
-// 		display: block;
-// 		}
-// 		display: none;
-// }
 
 .mobile {
 
 	@media screen and (max-width: 767px) {
 		display: block;
-		// height: 100vh;
+	
 		}
 		display: none;
 		position: fixed;
@@ -89,18 +82,9 @@
 
 	.mobile-menu {
 		display: none;
-		// visibility: hidden;
-		// opacity: 0;
+	
 		visibility: visible;
 
-
-		// pointer-events: none;
-		// pointer-events: auto;
-		// @media screen and (max-width: 760px) {
-		// 	width: 760px;
-		// display: block;
-	
-		//  }
 
 	}
 .mobile__icon {
