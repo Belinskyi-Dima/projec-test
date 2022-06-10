@@ -1,0 +1,76 @@
+.footer {
+  margin-bottom: 60px;
+  @media screen and (max-width: 1023px) {
+    padding: 0 15px;
+  }
+}
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  @media screen and (max-width: 860px) {
+	display: block;
+ 
+}
+}
+.footer__logo--wrapper {
+  flex-basis: 300px;
+  @media screen and (max-width: 860px) {
+	margin-bottom: 20px;
+ 
+}
+}
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+}
+.footer__logo {
+  display: inline-block;
+  margin-bottom: 22px;
+}
+.footer__logo--text {
+  margin-bottom: 60px;
+  @media screen and (max-width: 860px) {
+	margin-bottom: 10px;
+}
+}
+.footer__company {
+  font-size: 14px;
+  line-height: 22px;
+  color: #1d1f2e4d;
+}
+.footer__menu--list {
+	@media screen and (max-width: 1023px) {
+		display: none;
+	 }
+}
+.footer__title {
+  font-size: 12px;
+  line-height: 18px;
+  color: $primary-text-color;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.link {
+  font-size: 14px;
+  line-height: 22px;
+  color: $Secondary-text-color;
+}
+.footer__network--list {
+	@media screen and (max-width: 1023px) {
+		display: none;
+	 }
+}
+.footer__contacts--title {
+  margin-bottom: 16px;
+}
+.footer__contacts--email {
+  font-size: 23px;
+  line-height: 36px;
+  display: inline-block;
+  margin-bottom: 40px;
+  color: $primary-text-color;
+  @media screen and (max-width: 860px) {
+	margin-bottom: 10px;
+}
+}

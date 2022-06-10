@@ -1,0 +1,48 @@
+.authorization {
+  padding: 80px 0px;
+  background-color: $primary-text-color;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.authorization__text {
+  color: #fff;
+  margin-bottom: 15px;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 2px;
+}
+.authorization__title {
+  color: #fff;
+  margin-bottom: 15px;
+  font-size: 36px;
+  line-height: 50px;
+  font-weight: 400;
+}
+.authorization__form--input {
+  text-align: center;
+  height: 54px;
+  width: 350px;
+  background: $primary-text-color;
+  border: 1px solid #2f303e;
+  // text-transform: uppercase;
+  color: #fff;
+  margin-right: 10px;
+  @media screen and (max-width: 492px){
+	margin-bottom: 10px;
+  }
+}
+.authorization__form--btn {
+  text-transform: uppercase;
+  height: 54px;
+  width: 129px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+
+  &:hover {
+    background: rgb(190, 190, 190);
+    border: none;
+    border-radius: 5px;
+  }
+}
