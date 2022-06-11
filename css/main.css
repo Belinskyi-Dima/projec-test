@@ -70,6 +70,7 @@ body {
 @media screen and (max-width: 768px) {
   .container {
     max-width: 768px;
+    margin: 0 auto;
   }
 }
 
@@ -358,6 +359,12 @@ body {
 @media screen and (max-width: 330px) {
   .hero {
     padding: 100px 10px;
+  }
+}
+
+@media screen and (max-width: 806px) {
+  .hero {
+    background-position: 50% 50%;
   }
 }
 
