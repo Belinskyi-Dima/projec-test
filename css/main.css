@@ -1,35 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
-body {
-  font-family: "Karla", sans-serif;
-  max-width: 1380px;
-  margin: 0 auto;
-  font-weight: 400;
-  font-size: 16px;
-}
-
-.container {
-  margin: 0 auto;
-  position: relative;
-}
-
-@media screen and (max-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .container {
-    max-width: 1023px;
-  }
-}
-
-@media screen and (min-width: 1204px) {
-  .container {
-    width: 1204px;
-  }
-}
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -58,6 +27,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   line-height: 1;
+  margin: 0 auto;
 }
 
 ol, ul {
@@ -83,6 +53,37 @@ a {
   color: black;
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  max-width: 1380px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.container {
+  margin: 0 auto;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .container {
+    max-width: 1023px;
+  }
+}
+
+@media screen and (min-width: 1204px) {
+  .container {
+    width: 1204px;
+    margin: 0 auto;
+  }
 }
 
 .page-header {
