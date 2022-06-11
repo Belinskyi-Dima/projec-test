@@ -5,16 +5,24 @@
 .features__wrapper {
   width: 658px;
   margin: 0 auto;
-  @media screen and (max-width: 700px) {
-    max-width: 400px;
-  }
-  @media screen and (max-width: 1023px) {
-    max-width: 578px;
-  }
-  @media screen and (max-width: 579px) {
-    width: 400px;
-    color: red;
-  }
+ 
+
+
+
+//   @media screen and (max-width: 579px) {
+//     width: 400px;
+//     color: red;
+//   }
+
+ @media screen and (max-width: 1023px) {
+	max-width: 578px;
+ }
+ @media screen and (max-width: 700px) {
+	max-width: 360px;
+ }
+ @media screen and (max-width: 380px) {
+	max-width: 300px;
+ }
 }
 .features__title {
   font-size: 26px;
